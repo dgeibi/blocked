@@ -1,7 +1,7 @@
 blocked
 ======
 
-## Resources
+### Resources
 
 * [GreatFire.org](https://zh.greatfire.org/analyzer)
 * [gfwlist](https://github.com/gfwlist/gfwlist)
