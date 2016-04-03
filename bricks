@@ -1,0 +1,107 @@
+#!/bin/bash
+# BRICKS the Gfwed domains list by @leaskh
+
+addDomain() {
+    if [ "$1" = '' ]; then
+        echo 'Domain can not be empty!';
+        exit 1
+    fi
+    echo $1 >> $brickFile
+    cleanList
+}
+
+removeDomain() {
+    grep -v "$1" $brickFile > $brickFile.temp
+    mv $brickFile.temp $brickFile
+    cleanList
+}
+
+cleanList() {
+    sort -u $brickFile -o $brickFile
+    echo 'Done :)'
+}
+
+makePac() {
+    if [ "$*" = '' ]; then
+        echo 'Proxy configurations can not be empty!';
+        exit 1
+    fi
+    length=0
+    opFile=proxy.pac
+    sed -i '/^$/d' $brickFile
+    while read line; do
+        if [ "$line" != '' ]; then
+            length=$(( length + 1 ))
+        fi
+    done < $brickFile
+cat <<EOF > $opFile
+function isMatchProxy(url, pattern) {
+  try {
+    return new RegExp(pattern.replace('.', '\\\.')).test(url);
+  } catch (e) {
+    return false;
+  }
+}
+
+function FindProxyForURL(url, host) {
+
+  var proxy = '$@';
+
+  var dangerDomains = [
+EOF
+sed -e "s/.*/    '\0',/" -e "$ s/,//"  $brickFile >> $opFile
+cat <<EOF >> $opFile
+  ];
+
+  var safeDomains = [
+    'redirector.gvt1.com',
+    'cn.bing.com'
+  ];
+
+  for (var j = 0, r = safeDomains.length; j < r; j++) {
+    if (isMatchProxy(url, safeDomains[j])) {
+      return 'DIRECT';
+    }
+  }
+
+  for (var i = 0, l = dangerDomains.length; i < l; i++) {
+    if (isMatchProxy(url, dangerDomains[i])) {
+      return proxy;
+    }
+  }
+
+  return 'DIRECT';
+}
+EOF
+    echo 'Done :)'
+    echo "Rules: $length items."
+    echo "Usage: Use the newly created $opFile as your web browser's automatic"
+    echo 'PAC(Proxy auto-config) file.'
+
+}
+
+pacServer() {
+    makePac "$@"
+    echo 'PAC is now serving at: 0.0.0.0:8000'
+    echo 'Check it out with: $ curl http://127.0.0.1:8000/proxy.pac'
+    python -m http.server
+}
+
+unknownCommand() {
+    showHelp
+    exit 1
+}
+
+# BlackBox configurations
+brickFile=./domains.txt
+
+# Main logic
+case "$1" in
+    'add'     ) addDomain    $2;;
+    'remove'  ) removeDomain $2;;
+    'clean'   ) cleanList      ;;
+    'makpac'  ) makePac      $2;;
+    'pacsrv'  ) pacServer    $2;;
+    *         ) unknownCommand ;;
+esac
+exit 0
