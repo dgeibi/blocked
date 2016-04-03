@@ -1065,6 +1065,7 @@ function FindProxyForURL(url, host) {
     'cocolog-nifty.com',
     'code1984.com',
     'codeboxapp.com',
+    'codecademy.com',
     'codeshare.io',
     'codeskulptor.org',
     'colgate.com',
