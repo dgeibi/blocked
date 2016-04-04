@@ -35,42 +35,58 @@ makePac() {
         fi
     done < $brickFile
 cat <<EOF > $opFile
-function isMatchProxy(url, pattern) {
-  try {
-    return new RegExp(pattern.replace('.', '\\\.')).test(url);
-  } catch (e) {
-    return false;
+'// BRICKS Pac by @leaskh';
+'// https://github.com/leask/bricks';
+'// www.leaskh.com, i@leaskh.com';
+
+function FindProxyForURL(url, host) {
+  var bricks = {
+EOF
+sed -e "s/.*/  '\0': 1,/" -e "$ s/,//" $brickFile >> $opFile
+cat <<EOF >> $opFile
+};
+
+var white = {
+  'redirector.gvt1.com': 1,
+  'cn.bing.com': 1
+};
+
+var proxy = '$*';
+
+function testDomain(target, domains) {
+  var hasOwnProperty = Object.prototype.hasOwnProperty;
+  var suffix;
+  var pos = target.lastIndexOf('.');
+  pos = target.lastIndexOf('.', pos - 1);
+  while (true) {
+    if (pos <= 0) {
+      if (hasOwnProperty.call(domains, target)) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+    suffix = target.substring(pos + 1);
+    if (hasOwnProperty.call(domains, suffix)) {
+      return true;
+    }
+    pos = target.lastIndexOf('.', pos - 1);
   }
 }
 
-function FindProxyForURL(url, host) {
-
-  var proxy = '$@';
-
-  var dangerDomains = [
-EOF
-sed -e "s/.*/    '\0',/" -e "$ s/,//"  $brickFile >> $opFile
-cat <<EOF >> $opFile
-  ];
-
-  var safeDomains = [
-    'redirector.gvt1.com',
-    'cn.bing.com'
-  ];
-
-  for (var j = 0, r = safeDomains.length; j < r; j++) {
-    if (isMatchProxy(url, safeDomains[j])) {
-      return 'DIRECT';
-    }
-  }
-
-  for (var i = 0, l = dangerDomains.length; i < l; i++) {
-    if (isMatchProxy(url, dangerDomains[i])) {
-      return proxy;
-    }
-  }
-
+if (isPlainHostName(host) || host === '127.0.0.1' || host === 'localhost') {
   return 'DIRECT';
+}
+
+if (testDomain(host, white)) {
+  return 'DIRECT';
+}
+
+if (testDomain(host, bricks)) {
+  return proxy;
+}
+
+return 'DIRECT';
 }
 EOF
     echo 'Done :)'
