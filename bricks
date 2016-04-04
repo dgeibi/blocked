@@ -17,7 +17,8 @@ removeDomain() {
 }
 
 cleanList() {
-    sort -u $brickFile -o $brickFile
+    ./updater.py -s
+    #sort -u $brickFile -o $brickFile
     echo 'Done :)'
 }
 

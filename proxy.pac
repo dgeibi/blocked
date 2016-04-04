@@ -5657,6 +5657,7 @@ function FindProxyForURL(url, host) {
   'zhenlibu.info': 1,
   'zhenxiang.biz': 1,
   'zhibo5.com': 1,
+  'zhihu.com': 1,
   'zhinengluyou.com': 1,
   'zhongguo.ca': 1,
   'zhongguorenquan.org': 1,
