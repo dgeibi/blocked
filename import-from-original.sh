@@ -8,7 +8,3 @@ curl https://raw.githubusercontent.com/wongsyrone/domain-block-list/master/domai
 cat $Output | xargs ./updater.py -a
 
 rm -rf $Output
-
-# for i in bing.com;do
-#   ./bricks remove $i
-# done

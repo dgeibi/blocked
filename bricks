@@ -17,12 +17,12 @@ removeDomain() {
 }
 
 cleanList() {
-    ./updater.py -s
-    #sort -u $brickFile -o $brickFile
+    sort -u $brickFile -o $brickFile
     echo 'Done :)'
 }
 
 makePac() {
+    cleanList
     if [ "$*" = '' ]; then
         echo 'Proxy configurations can not be empty!';
         exit 1

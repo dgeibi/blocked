@@ -27,3 +27,4 @@ sed -i '/^url\b/'d $Output
 
 cat $Output | xargs ./updater.py -a
 rm -rf $Output
+
