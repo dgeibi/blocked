@@ -8,21 +8,23 @@ addDomain() {
     fi
     echo $1 >> $brickFile
     cleanList
+    echo 'Done :)'
 }
 
 removeDomain() {
     grep -v "$1" $brickFile > $brickFile.temp
     mv $brickFile.temp $brickFile
     cleanList
+    echo 'Done :)'
 }
 
 cleanList() {
     sort -u $brickFile -o $brickFile
-    echo 'Done :)'
 }
 
 makePac() {
     cleanList
+    sort -u $whiteFile -o $whiteFile
     if [ "$*" = '' ]; then
         echo 'Proxy configurations can not be empty!';
         exit 1
@@ -48,8 +50,9 @@ cat <<EOF >> $opFile
 };
 
 var white = {
-  'redirector.gvt1.com': 1,
-  'cn.bing.com': 1
+EOF
+sed -e "s/.*/  '\0': 1,/" -e "$ s/,//" $whiteFile >> $opFile
+cat <<EOF >> $opFile
 };
 
 var proxy = '$*';
@@ -94,7 +97,6 @@ EOF
     echo "Rules: $length items."
     echo "Usage: Use the newly created $opFile as your web browser's automatic"
     echo 'PAC(Proxy auto-config) file.'
-
 }
 
 pacServer() {
@@ -111,7 +113,7 @@ unknownCommand() {
 
 # BlackBox configurations
 brickFile=./domains.txt
-
+whiteFile=./white.txt
 # Main logic
 case "$1" in
     'add'     ) addDomain    $2;;

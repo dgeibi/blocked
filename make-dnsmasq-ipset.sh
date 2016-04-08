@@ -2,6 +2,8 @@
 
 ConfFile="./dnsmasq-blocklist.conf"
 DomainList="./domains.txt"
+WhiteList="./white.txt"
+
 sed -i '/^$/d' $DomainList
 
 rm -f $ConfFile 2>&1
@@ -11,10 +13,7 @@ do
 done
 
 echo "#### Bypass ipset domains">>$ConfFile
-cat <<'EOF' | while read BypassIpsetDomain
-redirector.gvt1.com
-cn.bing.com
-EOF
+cat $WhiteList | while read BypassIpsetDomain
 do
     echo "ipset=/$BypassIpsetDomain/#" >>$ConfFile
 done
