@@ -835,7 +835,6 @@ cdn.printfriendly.com
 cdn.softlayer.net
 cdn.sstatic.net
 cdn.staticstuff.net
-cdn.v2ex.com
 cdp1989.org
 cdp1998.org
 cdp2006.org
@@ -1273,7 +1272,6 @@ dns2go.com
 dnscrypt.org
 dnsimple.com
 dnssec.net
-dns.v2ex.com
 docker.com
 do.co
 docs.chef.io
@@ -5084,8 +5082,6 @@ uygur.fc2web.com
 uygur.org
 uymaarip.com
 uyttt.com
-v2ex.co
-v2ex.com
 v70.us
 v7976888.info
 vaayoo.com
