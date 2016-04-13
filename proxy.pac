@@ -1734,6 +1734,7 @@ function FindProxyForURL(url, host) {
   'freebrowser.org': 1,
   'freechal.com': 1,
   'freechina.net': 1,
+  'freecodecamp.com': 1,
   'freedl.org': 1,
   'freedomchina.info': 1,
   'freedomcollection.org': 1,
