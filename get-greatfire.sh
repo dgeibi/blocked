@@ -2,7 +2,6 @@
 
 set -x
 Output="./greatfire.txt"
-
 Threshold=70
 for i in $( seq 0 10 )
 do
@@ -24,7 +23,6 @@ awk '$2>='"$Threshold"' {print ""$1"" }'\
 done
 
 sed -i '/^url\b/'d $Output
-
-cat $Output | xargs ./updater.py -a
+./bricks adds $Output
 rm -rf $Output
-
+echo "Done :)"

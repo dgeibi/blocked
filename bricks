@@ -22,8 +22,17 @@ cleanList() {
     sort -u $brickFile -o $brickFile
 }
 
-makePac() {
+addDomains() {
+    if [ ! -e "$1" ]; then
+        echo 'Domains file do not exist!';
+        exit 2
+    fi
+    cat $1 >> $brickFile
     cleanList
+    echo 'Done :)'
+}
+
+makePac() {
     sort -u $whiteFile -o $whiteFile
     if [ "$*" = '' ]; then
         echo 'Proxy configurations can not be empty!';
@@ -117,6 +126,7 @@ whiteFile=./white.txt
 # Main logic
 case "$1" in
     'add'     ) addDomain    $2;;
+    'adds'    ) addDomains   $2;;
     'remove'  ) removeDomain $2;;
     'clean'   ) cleanList      ;;
     'makpac'  ) makePac      $2;;

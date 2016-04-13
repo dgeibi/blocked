@@ -6,6 +6,5 @@ curl -o $Output https://raw.githubusercontent.com/Leask/BRICKS/master/gfw.bricks
 curl https://raw.githubusercontent.com/wongsyrone/domain-block-list/master/domains.txt >> $Output
 
 sed -i "/v2ex/d" $Output
-cat $Output | xargs ./updater.py -a
-
+./bricks adds $Output
 rm -rf $Output
