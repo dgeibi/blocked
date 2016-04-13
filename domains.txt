@@ -37,6 +37,7 @@
 1bao.org
 1dpw.com
 1eew.com
+1mobile.com
 1pondo.tv
 2000fun.com
 2008xianzhang.info
@@ -98,6 +99,7 @@
 67.220.91.18
 67.220.91.23
 69.65.19.160
+6aaoo.com
 6park.com
 6v6dota.com
 72.52.81.22
@@ -1272,6 +1274,7 @@ dns2go.com
 dnscrypt.org
 dnsimple.com
 dnssec.net
+dns.v2ex.com
 docker.com
 do.co
 docs.chef.io
@@ -1507,6 +1510,7 @@ eulam.com
 eu.org
 eurekavpt.com
 europages.fr
+europages.ma
 evchk.wikia.com
 eventbrite.com
 eventful.com
@@ -5291,6 +5295,7 @@ wengewang.com
 wengewang.org
 wenhui.ch
 wenku.com
+wen.lu
 wen.ru
 wenweipo.com
 wenxuecity.com
