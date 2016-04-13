@@ -19,6 +19,7 @@ removeDomain() {
 }
 
 cleanList() {
+    sed -i '/^$/d' $brickFile
     sort -u $brickFile -o $brickFile
 }
 
@@ -33,14 +34,12 @@ addDomains() {
 }
 
 makePac() {
-    sort -u $whiteFile -o $whiteFile
     if [ "$*" = '' ]; then
         echo 'Proxy configurations can not be empty!';
         exit 1
     fi
     length=0
     opFile=proxy.pac
-    sed -i '/^$/d' $brickFile
     while read line; do
         if [ "$line" != '' ]; then
             length=$(( length + 1 ))
