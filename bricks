@@ -25,7 +25,7 @@ cleanList() {
 
 addDomains() {
     if [ ! -e "$1" ]; then
-        echo 'Domains file do not exist!';
+        echo 'Domains file not found!';
         exit 2
     fi
     cat $1 >> $brickFile
