@@ -159,6 +159,7 @@ adblockplus.org
 addictedtocoffee.de
 addthis.com
 admob.com
+adorama.com
 adpl.org.hk
 adult-empire.com
 adult.friendfinder.com
@@ -330,6 +331,7 @@ artsy.net
 artwitter.com
 ar.wikipedia.org
 arzon.jp
+asacp.org
 asahichinese.com
 asana.com
 ascodevida.com
@@ -420,6 +422,7 @@ bbc.com
 bbc.co.uk
 bbci.co.uk
 bbc.in
+bbcnbank.com
 bbg.gov
 bbs.brockbbs.com
 bbs.cantonese.asia
@@ -487,6 +490,7 @@ bewww.net
 beyondfirewall.com
 bfnn.org
 bfsh.hk
+bgproxy.org
 bgvpn.com
 bhg.com
 biantailajiao.com
@@ -1314,6 +1318,7 @@ download.ithome.com.tw
 doxygen.org
 dphk.org
 dpp.org.tw
+dpr.info
 dracoola.org
 dragtimes.com
 draw.io
@@ -1498,6 +1503,7 @@ esmas.com
 etaa.org.au
 etaiwannews.com
 etizer.org
+etokki.com
 etools.ncol.com
 etracker.com
 e-traderland.net
@@ -1888,6 +1894,7 @@ get-digital-help.com
 getfoxyproxy.org
 getfreedur.com
 getgom.com
+get.how
 getiton.com
 getjetso.com
 getlantern.org
@@ -1972,6 +1979,7 @@ godsdirectcontact.org.tw
 god.tv
 gofundme.com
 gohappy.com.tw
+gojet.krtco.com.tw
 gokbayrak.com
 golang.org
 golan.org
@@ -2551,6 +2559,7 @@ immoral.jp
 impact.org.au
 impp.mn
 im.tv
+in99.org
 incezt.net
 incloak.com
 incredibox.fr
@@ -2558,6 +2567,7 @@ indeed.co.uk
 independent.ie
 index.hu
 indiaglitz.com
+indiandefensenews.in
 indiebound.org
 indiemerch.com
 in-disguise.com
@@ -2749,12 +2759,14 @@ kagyuoffice.org
 kagyuoffice.org.tw
 kaiyuan.de
 kakao.com
+kannewyork.com
 kanshifang.com
 kanzhongguo.com
 kanzhongguo.eu
 kaotic.com
 karayou.com
 karkhung.com
+karmapa.org
 karmapa-teachings.org
 kat.cr
 kat.ph
@@ -3071,6 +3083,7 @@ md-t.org
 mediafire.com
 mediafreakcity.com
 mediawiki.org
+medium.com
 meetav.com
 meetcheap.com
 meeticaffinity.fr
@@ -3279,6 +3292,7 @@ myfreepaysite.com
 myfreshnet.com
 myiphide.com
 my.keso.cn
+mykomica.org
 mylust.com
 my.mail.ru
 mymediarom.com
@@ -3303,6 +3317,8 @@ naacoalition.org
 naitik.net
 nakido.com
 nakuz.com
+nalandabodhi.org
+nalandawest.org
 name.com
 namsisi.com
 nanyang.com
@@ -3583,6 +3599,7 @@ paljorpublications.com
 palmbeachpost.com
 paltalk.com
 panacom.co.jp
+panamapapers.sueddeutsche.de
 pandapow.net
 pandavpn-jp.com
 pandora.com
@@ -3822,6 +3839,7 @@ proxy.org
 proxypy.net
 proxyroad.com
 proxyserver.com
+proxy-service.de
 proxysite.com
 proxytunnel.net
 proxyunblocker.org
@@ -4006,6 +4024,7 @@ rsf-chinese.org
 rsf.org
 rsgamen.org
 rssmeme.com
+rtalabel.org
 rtbot.net
 rthk.hk
 rthk.hk.edgesuite.net
@@ -4037,6 +4056,7 @@ sa.hao123.com
 saiq.me
 sai-zen-sen.jp
 sakuralive.com
+sakya.org
 salegamez.cc
 salvation.org.hk
 samair.ru
@@ -4083,6 +4103,7 @@ seagate.com
 seamless.com
 seapuff.com
 search.aol.com
+search.disconnect.me
 searchtruth.com
 seattlecoffeegear.com
 secretchina.com
@@ -4160,6 +4181,7 @@ shenshou.org
 shenyun.com
 shenyunperformingarts.org
 shenzhoufilm.com
+sherabgyaltsen.com
 sherdog.com
 shicheng.org
 shifeike.blog125.fc2blog.net
@@ -4647,6 +4669,7 @@ tibetfocus.com
 tibet-foundation.org
 tibet.fr
 tibetfund.org
+tibethaus.com
 tibethouse.jp
 tibethouse.org
 tibet-house-trust.co.uk
