@@ -519,6 +519,7 @@ birdsontwitter.com
 bitbucket.org
 bitcointa.lk
 bitcointalk.org
+bit.do
 bit.ly
 bitly.com
 bitshare.com
@@ -576,6 +577,7 @@ blog.lester850.info
 blog.lightbox.com
 bloglines.com
 bloglovin.com
+blog.martinoei.com
 blog.mongodb.org
 blog.openinkpot.org
 blog.palm.com
@@ -780,6 +782,7 @@ cameleo.ru
 camfrog.com
 cams.com
 cams.org.sg
+canadahelps.org
 canadameet.com
 canalporno.com
 c-and-a.com
@@ -1262,6 +1265,8 @@ discuss.com.hk
 dish.com
 disneyrollergirl.net
 disp.cc
+disquscdn.com
+disqus.com
 dit-inc.us
 dizhidizhi.com
 dizhuzhishang.com
@@ -1487,6 +1492,7 @@ erabaru.net
 eraysoft.com.tr
 erepublik.com
 erights.net
+erikalust.com
 eriversoft.com
 erktv.com
 ernestmandel.org
@@ -1742,6 +1748,7 @@ freedomhouse.org
 freedom-ip.com
 freedomsherald.org
 freeforums.org
+freefq.com
 free.fr
 freefuckvids.com
 freegao.com
@@ -1762,6 +1769,7 @@ freeoda.com
 freeones.com
 freeopenvpn.com
 freeoz.org
+freepeople.cn
 freepik.com
 freepornofreeporn.com
 free-proxyserver.com
@@ -2270,6 +2278,7 @@ heartyit.com
 heatsale.com
 hecaitou.net
 hechaji.com
+hec.su
 heeact.edu.tw
 hegre-art.com
 heix.pp.ru
@@ -2435,6 +2444,7 @@ hsbc.com.hk
 hsjp.net
 hsselite.com
 hstern.net
+hst.net.tw
 hstt.net
 htkou.net
 htl.li
@@ -3821,6 +3831,7 @@ provpnaccounts.com
 proxay.co.uk
 proxfree.com
 proxifier.com
+proxify.com
 proxite.net
 proxite.us
 proxlet.com
@@ -3948,6 +3959,7 @@ read100.com
 readingtimes.com.tw
 readmoo.com
 realcourage.org
+realforum.zkiz.com
 realhomesex.net
 realitykings.com
 realraptalk.com
@@ -5288,6 +5300,7 @@ webbang.net
 webcams.com
 webevader.org
 webfee.tk
+webfreer.com
 webjb.org
 weblagu.com
 webmproject.org
