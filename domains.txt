@@ -49,6 +49,7 @@
 21sextury.com
 228.net.tw
 24smile.org
+24video.net
 24video.xxx
 2cat.twbbs.org
 2-hand.info
@@ -114,7 +115,9 @@
 881903.com
 888.com
 88wins.com
+8900km.com
 89-64.org
+8cyber.com
 8-d.com
 8news.com.tw
 8z1.net
@@ -146,6 +149,7 @@ aboluowang.com
 abondance.com
 aboutgfw.com
 abs.edu
+accim.org
 accounts.blogger.com
 acevpn.com
 acgkj.com
@@ -804,6 +808,7 @@ cartoonmovement.com
 casatibet.org.mx
 casinobellini.com
 casinoking.com
+casinolasvegas.com
 casinoriva.com
 caspion.com
 catcatbox.com
@@ -1346,6 +1351,7 @@ dslr-forum.de
 dtiblog.com
 dtic.mil
 dtiserv2.com
+dtwang.org
 duckdns.org
 duckduckgo.com
 duck.hk
@@ -1627,6 +1633,7 @@ fc2blog.us
 fc2china.com
 fc2cn.com
 fc2.com
+fc2live.us
 fdc89.jp
 feathersite.com
 fedoraforum.org
@@ -1948,6 +1955,7 @@ givemesomethingtoread.com
 gizlen.net
 glass8.eu
 glennhilton.com
+glgltz.co.il
 globaldelight.com
 global.hkepc.com
 globaljihad.net
@@ -2831,6 +2839,7 @@ konachan.com
 konami.jp
 koolsolutions.com
 koornk.com
+koranmandarin.com
 korea-twitter.com
 kproxy.com
 kraftrecipes.com
@@ -3091,6 +3100,7 @@ mcb.mu
 mcfog.com
 mcreasite.com
 md-t.org
+mediachinese.com
 mediafire.com
 mediafreakcity.com
 mediawiki.org
@@ -3290,6 +3300,7 @@ myboooks.googlepages.com
 myca168.com
 mychinamyhome.com
 mychinanews.com
+mycnnews.com
 mycould.com
 mydirtyhobby.com
 mydirtyhobby.de
@@ -3347,6 +3358,7 @@ navicat.com
 navigeaters.com
 navy.mil
 nbc.com
+nbp.pl
 nccwatch.org.tw
 nch.com.tw
 ncn.org
@@ -3791,6 +3803,7 @@ post852.com
 postadult.com
 post.anyu.org
 posterous.com
+postimg.org
 post.ly
 potora.jp
 powerapple.com
@@ -4357,6 +4370,7 @@ spotify.com
 spring4u.info
 springboardplatform.com
 sprinklr.com
+sprite.org
 sproutcore.com
 sproxy.info
 spysurfing.com
@@ -4886,6 +4900,7 @@ tv.com
 tv.com.pk
 tvider.com
 tv-intros.com
+tvmost.com.hk
 tv.nu
 tv.on.cc
 tvunetworks.com
@@ -5128,6 +5143,7 @@ uygur.fc2web.com
 uygur.org
 uymaarip.com
 uyttt.com
+v2ray.com
 v70.us
 v7976888.info
 vaayoo.com
