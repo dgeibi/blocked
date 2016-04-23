@@ -5809,7 +5809,8 @@ var white = {
   'toolbarqueries.google.co.kr': 1,
   'toolbarqueries.google.com': 1,
   'toolbarqueries.google.com.hk': 1,
-  'toolbarqueries.google.com.tw': 1
+  'toolbarqueries.google.com.tw': 1,
+  'images-cn.ssl-images-amazon.com': 1
 };
 
 var proxy = 'PROXY 127.0.0.1:1080';
