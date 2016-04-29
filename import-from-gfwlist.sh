@@ -6,3 +6,5 @@ wget https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt -O ./g
 cat ./gfwlist.txt | ./import-from-gfwlist.js
 
 rm -rf ./gfwlist.txt
+
+sed -i '/^v2ex/d' domains.txt

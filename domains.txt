@@ -41,6 +41,7 @@
 1eew.com
 1mobile.com
 1pondo.tv
+1proxy.de
 2000fun.com
 2008xianzhang.info
 2017.hk
@@ -192,6 +193,7 @@ aiweiwei.com
 ai-wen.net
 ajaxplorer.info
 ajsands.com
+akademiye.org
 akamaihd.net
 akamai.net
 akiba-online.com
@@ -540,6 +542,7 @@ bjs.com
 bjzc.org
 blacklogic.com
 blackvpn.com
+bl-doujinsouko.com
 blinkx.com
 blinw.com
 blip.tv
@@ -1271,6 +1274,7 @@ digitalnomadsproject.org
 digitalocean.com
 digitaltrends.com
 diigo.com
+dilber.se
 dimitrik.free.fr
 dingoonity.org
 dinside.no
@@ -1335,6 +1339,7 @@ doubleaf.com
 doubleclick.com
 doubleclick.net
 dougscripts.com
+doujincafe.com
 dowei.org
 down4youtube.com
 downfacebook.com
@@ -1517,8 +1522,11 @@ erikalust.com
 eriversoft.com
 erktv.com
 ernestmandel.org
+erodaizensyu.com
 erodoujinworld.com
 eroharuhi.net
+eromangadouzin.com
+eromanga-kingdom.com
 eroprofile.com
 eroshinbo.com
 eroticsaloon.net
@@ -1717,6 +1725,7 @@ flyvpn.com
 fmnnow.com
 fnac.es
 fnacspectacles.com
+fochk.org
 focustaiwan.tw
 focusvpn.com
 fofg.org
@@ -1786,6 +1795,7 @@ freelotto.com
 freeman2.com
 freemoren.com
 freemorenews.com
+freemuse.org
 freenet-china.org
 freenetproject.org
 freenewscn.com
@@ -1904,6 +1914,7 @@ gdbt.net
 gdzf.org
 geek-art.net
 geekerhome.com
+geekheart.info
 geekmade.co.uk
 geekmanuals.com
 g.e-hentai.org
@@ -1971,6 +1982,7 @@ git-scm.com
 gittigidiyor.com
 givemesomethingtoread.com
 gizlen.net
+gjczz.com
 glass8.eu
 glennhilton.com
 glgltz.co.il
@@ -2004,6 +2016,7 @@ gnuradio.org
 goagent.biz
 goagent.codeplex.com
 goagentplus.com
+gobet.cc
 godaddy.com
 godfootsteps.org
 godsdirectcontact.com
@@ -2418,6 +2431,7 @@ hkwcc.org.hk
 hk.yahoo.com
 hkzone.org
 hkzz8.com
+h-moe.com
 hmv.com
 hmvdigital.ca
 hmvdigital.com
@@ -2829,6 +2843,7 @@ kepard.com
 keurig.com
 khabdha.org
 khmusic.com.tw
+kichiku-doujinko.com
 kickass.com
 kickyoutube.com
 killwall.com
@@ -3153,6 +3168,7 @@ memrijttm.org
 menover30.com
 menupages.com
 mercyprophet.org
+meripet.com
 merit-times.com.tw
 meshrep.com
 mesotw.com
@@ -3246,6 +3262,7 @@ modedamour.com
 modfetish.com
 modivideo.com
 modmyi.com
+moeerolibrary.com
 mog.com
 molihua.org
 momentlens.co
@@ -3622,11 +3639,13 @@ ourtv.hk
 our-twitter.com
 overlapr.com
 overplay.net
+oversea.istarshine.com
 owind.com
 owl.li
 ow.ly
 oxid.it
 oyax.com
+oyghan.com
 ozchinese.com
 ozxw.com
 ozyoyo.com
@@ -5088,6 +5107,7 @@ uhaul.com
 uhrp.org
 uiccu.org
 uighurbiz.net
+uighur.narod.ru
 uighur.nl
 uinyan.tumblr.com
 ukcdp.co.uk
@@ -5365,6 +5385,7 @@ webrtc.org
 webrush.net
 webs.com
 webshots.com
+website.informer.com
 websitepulse.com
 websnapr.com
 webs-tv.net
@@ -5718,6 +5739,7 @@ ytht.net
 ytimg.com
 yuanming.net
 yuanzhengtang.org
+yulghun.com
 yuming.flnet.org
 yunchao.net
 yuvutu.com
