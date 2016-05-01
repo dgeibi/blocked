@@ -110,6 +110,7 @@
 7capture.com
 7cow.com
 7dog.com
+7xx8.com
 84000.co
 85.17.73.31
 85cc.net
@@ -2559,6 +2560,7 @@ identi.ca
 idesktop.tv
 id.hao123.com
 idiomconnection.com
+idividi.com.mk
 idlcoyote.com
 idol-blog.com
 idouga.com
@@ -3376,6 +3378,7 @@ mysinablog.com
 mysite.verizon.net
 mysocialpoint.com
 myspace.com
+mywife.cc
 mywot.com
 mzstatic.com
 naacoalition.org
@@ -3581,6 +3584,7 @@ omgili.com
 omnitalk.com
 omnitalk.org
 on.cc
+onebigphoto.com
 onedrive.live.com
 one.xthost.info
 onion.city
@@ -3851,6 +3855,7 @@ postadult.com
 post.anyu.org
 posterous.com
 postimg.org
+postini.com
 post.ly
 potora.jp
 powerapple.com
@@ -4959,6 +4964,7 @@ tv-intros.com
 tvmost.com.hk
 tv.nu
 tv.on.cc
+tvplayvideos.com
 tvunetworks.com
 tw01.org
 tw116.com
@@ -5066,6 +5072,7 @@ twnorth.org.tw
 tw-npo.org
 twotwitter.com
 twreg.info
+twrp.me
 twstar.net
 tw.streetvoice.com
 twt.fm
@@ -5538,6 +5545,7 @@ worstthingieverate.com
 wo.tc
 wowlegacy.ml
 wow-life.net
+wowporn.com
 woxinghuiguo.com
 wozy.in
 wp.com
