@@ -108,6 +108,7 @@
 6v6dota.com
 72.52.81.22
 7capture.com
+7chan.org
 7cow.com
 7dog.com
 7xx8.com
@@ -297,6 +298,7 @@ anysex.com
 aobo.com.au
 aofriend.com
 aofriend.com.au
+aojiao.org
 aolchannels.aol.com
 aolnews.com
 aomiwang.com
@@ -336,6 +338,7 @@ ar.hao123.com
 arlingtoncemetery.mil
 army.mil
 arsys.es
+art4tibet1998.org
 artifacts.com.tw
 art-or-porn.com
 artsy.net
@@ -442,6 +445,7 @@ bbsdigest.com
 bbs.ecstart.com
 bbsfeed.com
 bbs.hanminzu.org
+bbs.hasi.wang
 bbs.kimy.com.tw
 bbsland.com
 bbsmo.com
@@ -571,6 +575,7 @@ blog.fizzik.com
 blog.foolsmountain.com
 blogger.com
 blogger.com.br
+blog.goo.ne.jp
 blog.gowalla.com
 blog.hotpotato.com
 blog.ifttt.com
@@ -1411,6 +1416,7 @@ earthquake.usgs.gov
 eastern-ark.com
 easternlightning.org
 eastturkestan.com
+eastturkistancc.org
 eastturkistangovernmentinexile.us
 eastturkistan-gov.org
 eastturkistan.net
@@ -1590,6 +1596,7 @@ facebook.hu
 facebook.net
 facebook.nl
 facebookquotes4u.com
+facebook.se
 faceless.me
 facesofnyfw.com
 facesoftibetanselfimmolators.info
@@ -2667,6 +2674,7 @@ iphonetaiwan.org
 iphonix.fr
 ipicture.ru
 ipjetable.net
+ipleak.net
 ipobar.com
 iportal.me
 ippotv.com
@@ -3502,6 +3510,7 @@ noodlevpn.com
 norbulingka.org
 nordstrom.com
 nordstromimage.com
+nordstromrack.com
 nordvpn.com
 notes.alexdong.com
 novelasia.com
@@ -3540,6 +3549,7 @@ nydus.ca
 nylon-angel.com
 nylonstockingsonline.com
 nysingtao.com
+ny.stgloballink.com
 nytco.com
 nyt.com
 nytimes.com
@@ -3606,6 +3616,7 @@ openallweb.com
 open.com.hk
 open-consoles-news.com
 opendemocracy.net
+openervpn.in
 openid.net
 openleaks.org
 openvpn.net
@@ -4410,6 +4421,7 @@ spb.com
 speakerdeck.com
 speckleapp.com
 speedpluss.org
+speedtest.net
 spem.at
 spencertipping.com
 spicevpn.com
@@ -4736,6 +4748,7 @@ tibetaid.org
 tibetalk.com
 tibetan-alliance.org
 tibetanarts.org
+tibetancommunityuk.net
 tibetanculture.org
 tibetan.fr
 tibetanliberation.org
@@ -4745,6 +4758,7 @@ tibetanpoliticalreview.org
 tibetanreview.net
 tibetanwomen.org
 tibetanyouthcongress.org
+tibetanyouth.org
 tibet.a.se
 tibet.at
 tibet.ca
@@ -4765,6 +4779,7 @@ tibethouse.org
 tibet-house-trust.co.uk
 tibethouse.us
 tibet-info.net
+tibetinfonet.net
 tibet-initiative.de
 tibetjustice.org
 tibet-munich.de
@@ -4814,6 +4829,7 @@ tl.gd
 tma.co.jp
 tmagazine.com
 tmi.me
+tmpp.org
 tnaflix.com
 t.neolee.cn
 tnews.cc
