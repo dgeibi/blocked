@@ -207,6 +207,7 @@ akiba-online.com
 akiba-web.com
 aktifhaber.com
 alabout.com
+alanhou.com
 alarabiya.net
 alasbarricadas.org
 aldi.co.uk
@@ -447,6 +448,8 @@ bbcchinese.com
 bbc.co
 bbc.com
 bbc.co.uk
+bb-chat.tv
+bbchat.tv
 bbci.co.uk
 bbc.in
 bbcnbank.com
@@ -1232,6 +1235,7 @@ dalailama.ru
 dalailamavisit.org.nz
 dalailamaworld.com
 dalianmeng.org
+daliulian.net
 daliulian.org
 dallascowboys.com
 dallasobserver.com
@@ -1502,6 +1506,7 @@ elpais.com.co
 elpais.com.uy
 eltondisney.com
 emacsblog.org
+emaga.com
 email.cz
 embedly.com
 embr.in
@@ -2566,6 +2571,7 @@ humanrightsbriefing.org
 hungerstrikeforaids.org
 hung-ya.com
 huping.net
+hurriyet.com.tr
 hussytube.com
 hustlercash.com
 hutianyi.net
@@ -2665,6 +2671,7 @@ impact.org.au
 impp.mn
 im.tv
 in99.org
+inbanban.com
 incezt.net
 incloak.com
 incredibox.fr
@@ -3182,6 +3189,8 @@ matainja.com
 match.com
 mathable.io
 mathiew-badimon.com
+matome-plus.com
+matome-plus.net
 matsushimakaede.com
 mattwilcox.net
 maturejp.com
@@ -5780,6 +5789,7 @@ yahoo.com.hk
 yahoo.com.tw
 yakbutterblues.com
 yam.com
+yam.org.tw
 yandex.ua
 yanghengjun.com
 yangjianli.com
