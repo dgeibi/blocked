@@ -161,6 +161,7 @@ abs.edu
 accim.org
 accounts.blogger.com
 acevpn.com
+acg18.me
 acgkj.com
 ac.jiruan.net
 actimes.com.au
@@ -174,6 +175,7 @@ addthis.com
 admob.com
 adorama.com
 adpl.org.hk
+adsrvmedia.net
 adult-empire.com
 adult.friendfinder.com
 adultfriendfinder.com
@@ -319,6 +321,7 @@ api.mobilepicture.com
 api.path.com
 api.proxlet.com
 api.supertweet.net
+apk-dl.com
 apkpure.com
 appannie.com
 app.box.com
@@ -331,6 +334,7 @@ appledaily.com.hk
 appledaily.com.tw
 apps.admob.com
 apps.hloli.net
+appsocks.net
 appspot.com
 aprs.net
 ar15.com
@@ -425,6 +429,7 @@ badassjs.com
 badjojo.com
 badoo.com
 baidu.jp
+bailandaily.com
 baixing.me
 bajarfacebook.com
 bajaryoutube.com
@@ -695,6 +700,7 @@ bloombergview.com
 bloomfortune.com
 bloomingdales.com
 blueangellive.com
+bmfinn.com
 bnrmetal.com
 boardreader.com
 bobsredmill.com
@@ -797,6 +803,7 @@ bytesforall.com
 c100tibet.org
 c1521.biz.tm
 c1522.mooo.com
+cablegatesearch.net
 cablenews.i-cable.com
 cachinese.com
 cachvaofacebook.com
@@ -1098,6 +1105,7 @@ cn.fmnnow.com
 cn.freeones.com
 cn.giganews.com
 cn.ibtimes.com
+cnineu.com
 cnn.com
 cnpolitics.org
 cn-proxy.com
@@ -1169,6 +1177,7 @@ crazyshit.com
 crchina.org
 crd-net.org
 creaders.net
+creadersnet.com
 cristyli.com
 crocoguide.com
 crocotube.com
@@ -1228,12 +1237,18 @@ dajusha.baywords.com
 dalailama80.org
 dalailamacenter.org
 dalailama.com
+dalailamafellows.org
+dalailamafilm.com
 dalailamafoundation.org
 dalailamahindi.com
+dalailamainaustralia.org
 dalailamajapanese.com
 dalailama.mn
 dalailamaprotesters.info
+dalailamaquotes.org
 dalailama.ru
+dalailamatrust.org
+dalailama.usc.edu
 dalailamavisit.org.nz
 dalailamaworld.com
 dalianmeng.org
@@ -1261,15 +1276,18 @@ daxa.cn
 dayaarmongol.ning.com
 daylife.com
 dbc.hk
+db.tt
 dcard.tw
 dcmilitary.com
 dcsdk12.org
 ddc.com.tw
 ddfnetwork.com
 ddhw.com
+ddns.net
 ddoo.cc
 deaftone.com
 deck.ly
+decodet.co
 default.secureserver.net
 definebabe.com
 deja.com
@@ -1411,6 +1429,7 @@ drsunacademy.com
 drtuber.com
 dscn.info
 dslr-forum.de
+dtdns.net
 dtiblog.com
 dtic.mil
 dtiserv2.com
@@ -1451,6 +1470,7 @@ eamonnbrennan.com
 earlytibet.com
 earthcam.com
 earthquake.usgs.gov
+earthvpn.com
 eastern-ark.com
 easternlightning.org
 eastturkestan.com
@@ -1747,6 +1767,7 @@ filthdump.com
 fimes.gr
 finalion.jp
 financetwitter.com
+finchvpn.com
 findbook.tw
 findmespot.com
 findmima.com
@@ -2052,6 +2073,7 @@ globaltm.org
 globalvoicesonline.org
 glock.com
 gloryhole.com
+gluckman.com
 glue-static.s3-external-3.amazonaws.com
 glype.com
 glz.co.il
@@ -2311,6 +2333,7 @@ greenpeace.com.tw
 greenpeace.org
 greenreadings.com
 greenvpn.net
+greenvpn.org
 group-facials.com
 groups.google.cn
 grubhub.com
@@ -2467,6 +2490,7 @@ hkheadline.com
 hkhkhk.com
 hkhrc.org.hk
 hkhrm.org.hk
+hkip.org.uk
 hkjc.com
 hk.jiepang.com
 hkjp.easyweb.hk
@@ -2514,6 +2538,7 @@ hongmeimei.com
 hongzhi.li
 hootsuite.com
 hoovers.com
+hopto.org
 hornygamer.com
 hotav.tv
 hoteljen.com
@@ -2932,6 +2957,7 @@ kissyoutube.com
 kiwi6.com
 kiwi.kz
 kkbobo.com
+kk-whys.co.jp
 klip.me
 klmty.net
 kmart.com
@@ -2961,6 +2987,7 @@ kun.im
 kurashsultan.com
 kurtmunger.com
 kusocity.com
+kusos.com
 kuvia.eu
 kwcg.ca
 kwongwah.com.my
@@ -2996,6 +3023,7 @@ latimesblogs.latimes.com
 laweekly.com
 lazarsearlymusic.com
 ld.hao123img.com
+leafyvpn.net
 lebo.tv
 leecheukyan.org
 leedeelive.com
@@ -3018,6 +3046,7 @@ le-vpn.com
 lex.sh
 lezcuties.com
 lhakar.org
+lian33.com
 lian86.com
 liangyou.net
 liansi.org
@@ -3080,6 +3109,7 @@ lizhizhuangbi.com
 lkcn.net
 llnwd.net
 load.to
+lobsangwangyal.com
 local.com
 localdomain.ws
 localhost.com
@@ -3099,6 +3129,7 @@ loiclemeur.com
 londonchinese.ca
 london.neighborhoodr.com
 longhair.hk
+longmusic.com
 longtermly.net
 longtoes.com
 lookatgame.com
@@ -3422,6 +3453,7 @@ mybloggertricks.com
 myboooks.googlepages.com
 myca168.com
 mychinamyhome.com
+mychinanet.com
 mychinanews.com
 mycnnews.com
 mycould.com
@@ -3538,6 +3570,7 @@ news.sina.com.hk
 news.sina.com.tw
 news.sinchew.com.my
 news.singtao.ca
+newstamago.com
 newstapa.org
 newstarnet.com
 news.tvb.com
@@ -3728,6 +3761,7 @@ otto.de
 ourdearamy.com
 oursogo.com
 oursteps.com.au
+oursweb.net
 ourtv.hk
 our-twitter.com
 overlapr.com
@@ -4153,6 +4187,7 @@ reviewcentre.com
 reviveourhearts.com
 revleft.com
 revver.com
+rexmag.com
 rfachina.com
 rfamobile.org
 rfa.org
@@ -4192,6 +4227,7 @@ routledge.com
 rsf-chinese.org
 rsf.org
 rsgamen.org
+rss2search.com
 rssmeme.com
 rtalabel.org
 rtbot.net
@@ -4200,6 +4236,7 @@ rthk.hk.edgesuite.net
 rthk.org.hk
 rti.org.tw
 rtl.de
+rtycminnesota.org
 ruanyifeng.com
 rubyfortune.com
 runningonjuice.com
@@ -4287,6 +4324,7 @@ secure.hustler.com
 secure.logmein.com
 securetunnel.com
 secure.wikimedia.org
+securityinabox.org
 securitykiss.com
 se-duc-tive.com
 seesmic.com
@@ -4314,6 +4352,7 @@ sexfind.com
 sexhuang.com
 sexhu.com
 sexinsex.net
+sexpixbox.com
 sexpreviews.eu
 sextracker.com
 sextube.com
@@ -4389,6 +4428,7 @@ sin1.g.adnxs.com
 sinchew.com.my
 sinchew-i.com
 singaporepools.com.sg
+singfortibet.com
 singtao.com
 singyoutube.com
 sinoants.com
@@ -4595,6 +4635,7 @@ sublimetext.com
 submitexpress.com
 sufeng.org
 sugarsync.com
+sugobbs.com
 suhrthu.com
 suissl.com
 summify.com
@@ -4757,6 +4798,7 @@ theblaze.com
 theblemish.com
 thebobs.com
 thebodyshop-usa.com
+thecenter.mit.edu
 thecheeky.com
 thechinabeat.org
 thechinastory.org
@@ -4839,6 +4881,7 @@ tibetalk.com
 tibetanaidproject.org
 tibetan-alliance.org
 tibetanarts.org
+tibetanbuddhistinstitute.org
 tibetancommunityuk.net
 tibetanculture.org
 tibetanfeministcollective.org
@@ -4998,6 +5041,7 @@ trialofccp.org
 trickfacebook.com
 tricksfacebook.com
 tr.im
+trimondi.de
 tripadvisor.in
 tripod.com
 trojmiasto.pl
@@ -5307,6 +5351,7 @@ ustream.tv
 ustwrap.info
 usus.cc
 utopianpal.com
+uu-gg.com
 uushare.com
 uvwxyz.xyz
 uwants.com
@@ -5400,6 +5445,7 @@ vine.co
 vinniev.com
 visibletweets.com
 vital247.org
+viu.com
 vivatube.com
 vivthomas.com
 vjmedia.com.hk
@@ -5433,6 +5479,7 @@ vpn4all.com
 vpnaccount.org
 vpnbook.com
 vpn.cjb.net
+vpncoupons.com
 vpncup.com
 vpnfan.com
 vpnfire.com
@@ -5448,6 +5495,8 @@ vpnpop.com
 vpnpronet.com
 vpnreactor.com
 vpnreviewz.com
+vpnsecure.me
+vpnsp.com
 vpntunnel.com
 vpnuk.info
 vpnvip.com
@@ -5591,6 +5640,7 @@ wiki.keso.cn
 wikileaks.ch
 wikileaks.de
 wikileaks.eu
+wikileaks-forum.com
 wikileaks.lu
 wikileaks.org
 wikileaks.pl
@@ -5662,6 +5712,7 @@ worldcat.org
 worldjournal.com
 worldmarket.com
 worldnews01.com
+worldvpn.net
 worstthingieverate.com
 wo.tc
 wow.com
