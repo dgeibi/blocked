@@ -167,6 +167,7 @@ ac.jiruan.net
 actimes.com.au
 activpn.com
 aculo.us
+ad1111.com
 ad6media.fr
 adac.de
 adblockplus.org
@@ -443,6 +444,7 @@ bangchen.net
 bangyoulater.com
 bankmillennium.pl
 bannedbook.org
+bannednews.org
 barenakedislam.com
 barnabu.co.uk
 barracuda.com
@@ -538,6 +540,7 @@ biblesforamerica.org
 bic2011.org
 big.az
 bigcommerce.com
+big-cup.tv
 bigfools.com
 bigjapanesesex.com
 bignews.org
@@ -870,6 +873,7 @@ cbs.ntu.edu.tw
 cbtc.org.hk
 ccavtop10.com
 ccdtr.org
+cchere.com
 ccim.org
 cclife.ca
 cclifefl.org
@@ -878,6 +882,7 @@ ccthere.com
 cctongbao.com
 ccue.ca
 ccue.com
+ccvoice.ca
 ccw.org.tw
 cdbook.org
 cdd.me
@@ -1156,6 +1161,7 @@ coolncute.com
 copy.com
 corumcollege.com
 cosmiq.de
+cos-moe.com
 costumesupercenter.com
 cotweet.com
 couchdbwiki.com
@@ -1184,6 +1190,7 @@ crocotube.com
 crossfire.co.kr
 crossthewall.net
 crowy.net
+crutchfield.com
 csdparty.com
 csgolounge.com
 c-spanvideo.org
@@ -1757,6 +1764,7 @@ fgmtv.org
 fhreports.net
 fiberprox.eu
 filefactory.com
+filefap.com
 fileflyer.com
 files2me.com
 fileserve.com
@@ -2003,6 +2011,7 @@ geocities.jp
 geohot.com
 geometrictools.com
 georgiapower.com
+gerefoundation.org
 getaround.com
 getchu.com
 getcloak.com
@@ -2141,6 +2150,7 @@ google.ba
 google.be
 google.bg
 google.bi
+googleblog.com
 google.bs
 google.ca
 google-cardboard.com
@@ -2237,6 +2247,7 @@ google.hn
 googlehosted.com
 google.hr
 google.ht
+googleideas.com
 google.ie
 google.is
 google.it
@@ -2351,6 +2362,7 @@ gumtree.com
 gunsamerica.com
 gunsandammo.com
 gun-world.net
+guoguotl.com
 guomin.us
 guruonline.hk
 gutefrage.net
@@ -3468,6 +3480,7 @@ myforum.com.uk
 myfreepaysite.com
 myfreshnet.com
 myiphide.com
+myjbb.net
 my.keso.cn
 mykomica.org
 mylust.com
@@ -3942,6 +3955,7 @@ polysolve.com
 pomponik.pl
 ponpare.jp
 popapp.in
+popo.tw
 popularpages.net
 popvote.hk
 popyard.com
@@ -4239,6 +4253,7 @@ rtl.de
 rtycminnesota.org
 ruanyifeng.com
 rubyfortune.com
+rukor.org
 runningonjuice.com
 rushbee.com
 rutube.ru
@@ -4368,6 +4383,7 @@ sftuk.org
 sh3lls.net
 sha7.info
 shadow.ma
+shadowsky.xyz
 shadowsocks.org
 shahamat-english.com
 shambhalasun.com
@@ -4564,6 +4580,7 @@ spotflux.com
 spotify.com
 spring4u.info
 springboardplatform.com
+spring.me
 sprinklr.com
 sprite.org
 sproutcore.com
@@ -4875,6 +4892,7 @@ tianlawoffice.com
 tiantibooks.org
 tianzhu.org
 tiava.com
+tibet3rdpole.org
 tibetaction.net
 tibetaid.org
 tibetalk.com
@@ -5499,6 +5517,7 @@ vpnsecure.me
 vpnsp.com
 vpntunnel.com
 vpnuk.info
+vpnunlimitedapp.com
 vpnvip.com
 vporn.com
 vraiesagesse.net
@@ -5723,6 +5742,7 @@ woxinghuiguo.com
 woyaolian.org
 wozy.in
 wp.com
+wp-livechat.com
 wpmudev.org
 wpoforum.com
 wqlhw.com
@@ -5949,6 +5969,7 @@ zaobao.com
 zaobao.com.sg
 zaozon.com
 zap.co.il
+zapjuegos.com
 zarias.com
 zattoo.com
 zaubacorp.com
