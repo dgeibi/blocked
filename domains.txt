@@ -115,6 +115,7 @@
 7cow.com
 7dog.com
 7xx8.com
+7-zip.org
 84000.co
 85.17.73.31
 85cc.net
@@ -129,6 +130,7 @@
 8cyber.com
 8-d.com
 8news.com.tw
+8teenxxx.com
 8z1.net
 9001700.com
 908taiwan.org
@@ -323,9 +325,11 @@ api.path.com
 api.proxlet.com
 api.supertweet.net
 apk-dl.com
+apkdler.com
 apkpure.com
 appannie.com
 app.box.com
+appdownloader.net
 app.heywire.com
 app.hkatvnews.com
 appleactionews.com
@@ -343,6 +347,7 @@ arabic-keyboard.org
 archdaily.net
 archive.is
 archive.org
+archives.gov
 archlinuxarm.org
 arctosia.com
 areca-backup.org
@@ -419,6 +424,7 @@ axureformac.com
 azerbaycan.tv
 azerimix.com
 azubu.tv
+b0ne.com
 bab-ul-islam.net
 babynet.com.hk
 backblaze.com
@@ -582,6 +588,7 @@ blog.birdhouseapp.com
 blog.bitly.com
 blogblog.com
 blog.boxcar.io
+blog.calibre-ebook.com
 blogcatalog.com
 blogcdn.com
 blogcity.me
@@ -1136,6 +1143,7 @@ collateralmurder.org
 collegefashion.net
 colormyfacebook.com
 comefromchina.com
+comenity.net
 com.google
 commandarms.com
 commentshk.com
@@ -1223,6 +1231,7 @@ cytode.us
 d100.net
 d20pfsrd.com
 d2bay.com
+d2pass.com
 dabr.co.uk
 dabr.eu
 dabr.me
@@ -1412,6 +1421,7 @@ dowei.org
 down4youtube.com
 downfacebook.com
 download.aircrack-ng.org
+download.cnet.com
 download.ithome.com.tw
 doxygen.org
 dphk.org
@@ -1518,6 +1528,7 @@ efmoe.com
 efukt.com
 egaliteetreconciliation.fr
 e-gold.com
+egregorion.net
 egyig.com
 e-hentai.org
 eic-av.com
@@ -1662,6 +1673,7 @@ facebook.com.bd
 facebook.com.br
 facebook.com.mx
 facebook.hu
+facebook.in
 facebook.net
 facebook.nl
 facebookquotes4u.com
@@ -2058,6 +2070,7 @@ girlfriendvideos.com
 gist.github.com
 gitbooks.io
 githubapp.com
+github-cloud.s3.amazonaws.com
 github.com
 github.io
 githubusercontent.com
@@ -3285,6 +3298,7 @@ memehk.com
 meme.yahoo.com
 memorybbs.com
 memrijttm.org
+memri.org
 menover30.com
 menupages.com
 mercyprophet.org
@@ -3385,6 +3399,7 @@ modfetish.com
 modivideo.com
 modmyi.com
 moeerolibrary.com
+mofos.com
 mog.com
 molihua.org
 momentlens.co
@@ -3475,6 +3490,7 @@ mydish.com
 myeasytv.com
 myeclipseide.com
 myequil.com
+my-formosa.com
 myforum.com.hk
 myforum.com.uk
 myfreepaysite.com
@@ -4800,6 +4816,7 @@ telegraph.co.uk
 telelistas.net
 telmex.com
 tenacy.com
+tensorflow.org
 test.com
 tetronics.com
 tew.org
@@ -5119,6 +5136,7 @@ tunnelbear.com
 tuo8.cc
 tuo8.hk
 tuo8.org
+tuo8.pw
 turansam.org
 turbobit.net
 turbohide.com
@@ -5309,6 +5327,7 @@ ultraxs.com
 umich.edu
 unblockaccess.com
 unblock.cn.com
+unblockdmm.com
 unblock-proxy.com
 unblocksit.es
 unblockthatsite.net
