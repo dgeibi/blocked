@@ -1,6 +1,8 @@
 blocked
 ======
 
+Collect domains which is blocked at 23.0389686,113.3942843
+
 ### Resources
 
 * [GreatFire.org](https://zh.greatfire.org/analyzer)
