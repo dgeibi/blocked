@@ -78,6 +78,7 @@
 4bluestones.biz
 4chan.org
 4everproxy.com
+4freeproxy.com
 4irc.com
 4life.com
 4proxy.de
@@ -124,6 +125,7 @@
 84000.co
 85.17.73.31
 85cc.net
+85po.com
 85porn.net
 85st.com
 881903.com
@@ -186,6 +188,7 @@ addthis.com
 admob.com
 adorama.com
 adpl.org.hk
+adsense.com
 adsrvmedia.net
 adult-empire.com
 adult.friendfinder.com
@@ -1178,6 +1181,7 @@ compileheart.com
 co.ng.mil
 connectedchina.reuters.com
 connect.facebook.net
+connectwise.com
 conoyo.com
 contactmagazine.net
 contests.twilio.com
@@ -1588,6 +1592,7 @@ emgog.com
 emilylau.org.hk
 emory.edu
 empfil.com
+empflix.com
 emucr.com
 emule-ed2k.com
 emulefans.com
@@ -3290,6 +3295,7 @@ mango.pl
 manhub.com
 maniash.com
 manicur4ik.ru
+manikarthik.com
 mansion.com
 mansionpoker.com
 marc.info
@@ -4382,6 +4388,7 @@ sandnoble.com
 sankaizok.com
 sanmin.com.tw
 sapikachu.net
+sarajay.com
 sarkarinaukriblog.com
 savemedia.com
 savetibet.de
@@ -4760,6 +4767,7 @@ sumrando.com
 sun1911.com
 sunporno.com
 sunskyforum.com
+suntrust.com
 sunvpn.net
 suoluo.org
 super.cz
@@ -5467,6 +5475,7 @@ urlparser.com
 usacn.com
 usaip.eu
 usaupload.net
+usembassy.gov
 userapi.nytlog.com
 users.skynet.be
 usfk.mil
@@ -5526,6 +5535,7 @@ venbbs.com
 venchina.com
 ventureswell.com
 veoh.com
+veooz.com
 verizon.net
 vermonttibet.org
 versavpn.com
@@ -6068,6 +6078,7 @@ ysku.in
 yslang.com
 ytht.net
 ytimg.com
+ytn.co.kr
 yuanming.net
 yuanzhengtang.org
 yulghun.com
