@@ -1,10 +1,16 @@
 #!/bin/bash
 
-./import-from-gfwlist.sh
-./get-greatfire.sh
+BLOCKED="./blocked.txt"
 
-read -p "update from original? [Y/N]" yn
-if [ "$yn" == "Y" ] || [ "$yn" == "y" ]; then
-  echo "updating ..."
-  ./import-from-original.sh
+./scripts/import-from-github.sh
+./scripts/import-from-greatfire.sh
+
+sort -u $BLOCKED -o $BLOCKED
+
+if [ -z "$1" ]; then
+    ./bricks makpac 'PROXY 127.0.0.1:1080'
+else
+    ./bricks makpac "$1"
 fi
+
+./scripts/make-dnsmasq-ipset.sh

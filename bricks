@@ -120,8 +120,8 @@ unknownCommand() {
 }
 
 # BlackBox configurations
-brickFile=./domains.txt
-whiteFile=./white.txt
+brickFile="./blocked.txt"
+whiteFile="./white.txt"
 # Main logic
 case "$1" in
     'add'     ) addDomain    $2;;
