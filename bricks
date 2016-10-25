@@ -53,52 +53,52 @@ cat <<EOF > $opFile
 function FindProxyForURL(url, host) {
   var bricks = {
 EOF
-sed -e "s/.*/  '\0': 1,/" -e "$ s/,//" $brickFile >> $opFile
+sed -e "s/.*/    '\0': 1,/" -e "$ s/,//" $brickFile >> $opFile
 cat <<EOF >> $opFile
-};
+  };
 
-var white = {
+  var white = {
 EOF
-sed -e "s/.*/  '\0': 1,/" -e "$ s/,//" $whiteFile >> $opFile
+sed -e "s/.*/    '\0': 1,/" -e "$ s/,//" $whiteFile >> $opFile
 cat <<EOF >> $opFile
-};
+  };
 
-var proxy = '$*';
+  var proxy = '$*';
 
-function testDomain(target, domains) {
-  var hasOwnProperty = Object.prototype.hasOwnProperty;
-  var suffix;
-  var pos = target.lastIndexOf('.');
-  pos = target.lastIndexOf('.', pos - 1);
-  while (true) {
-    if (pos <= 0) {
-      if (hasOwnProperty.call(domains, target)) {
-        return true;
-      } else {
-        return false;
-      }
-    }
-    suffix = target.substring(pos + 1);
-    if (hasOwnProperty.call(domains, suffix)) {
-      return true;
-    }
+  function testDomain(target, domains) {
+    var hasOwnProperty = Object.prototype.hasOwnProperty;
+    var suffix;
+    var pos = target.lastIndexOf('.');
     pos = target.lastIndexOf('.', pos - 1);
+    while (true) {
+      if (pos <= 0) {
+        if (hasOwnProperty.call(domains, target)) {
+          return true;
+        } else {
+          return false;
+        }
+      }
+      suffix = target.substring(pos + 1);
+      if (hasOwnProperty.call(domains, suffix)) {
+        return true;
+      }
+      pos = target.lastIndexOf('.', pos - 1);
+    }
   }
-}
 
-if (isPlainHostName(host) || host === '127.0.0.1' || host === 'localhost') {
+  if (isPlainHostName(host) || host === '127.0.0.1' || host === 'localhost') {
+    return 'DIRECT';
+  }
+
+  if (testDomain(host, white)) {
+    return 'DIRECT';
+  }
+
+  if (testDomain(host, bricks)) {
+    return proxy;
+  }
+
   return 'DIRECT';
-}
-
-if (testDomain(host, white)) {
-  return 'DIRECT';
-}
-
-if (testDomain(host, bricks)) {
-  return proxy;
-}
-
-return 'DIRECT';
 }
 EOF
     echo 'Done :)'
