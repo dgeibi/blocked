@@ -30,6 +30,7 @@ $(PAC): $(BLOCKED) $(WHITE) bricks
 	./bricks makpac $(PROXY) $(BLOCKED) $(WHITE)
 
 $(GREATFIRE): FORCE
+	rm -rf $(GREATFIRE)
 	for i in $$(seq 0 10);\
 	do \
 	curl -s --insecure "https://zh.greatfire.org/search/alexa-top-1000-domains?page=$$i"|  \
