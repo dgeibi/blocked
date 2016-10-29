@@ -13,9 +13,8 @@ Collect domains which is blocked at 23.0389686,113.3942843
 ### Usage
 
 ```
-#Make PAC
-./bricks makpac 'SOCKS5 127.0.0.1:8964; SOCKS 127.0.0.1:8964'
-./bricks makpac 'PROXY 127.0.0.1:1080'
+make PROXY="PROXY 127.0.0.1:1080"
+make PROXY="socks5 127.0.0.1:8964; socks 127.0.0.1:8964"
+make IPSET_NAME=gfwlist
 ```
-
 
