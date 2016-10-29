@@ -121,7 +121,15 @@ unknownCommand() {
 
 # BlackBox configurations
 brickFile="./blocked.txt"
+if [[ -n "$3" ]]; then
+    brickFile="$3"
+fi
+
 whiteFile="./white.txt"
+if [[ -n "$4" ]]; then
+    whiteFile="$4"
+fi
+
 # Main logic
 case "$1" in
     'add'     ) addDomain    $2;;
