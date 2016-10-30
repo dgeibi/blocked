@@ -329,6 +329,7 @@ avast.com
 avbebe.com
 avdb.in
 avdb.tv
+aventertainments.com
 avery.com
 avidemux.org
 avito.ru
@@ -1497,6 +1498,7 @@ flightcaster.com
 fling.com
 flipboard.com
 flipkart.com
+flirt4free.com
 flirt.com
 flyflv.com
 fmnnow.com
@@ -2586,6 +2588,7 @@ latibet.org
 latimesblogs.latimes.com
 lazarsearlymusic.com
 lebo.tv
+lede-project.org
 leecheukyan.org
 leedeelive.com
 lefigaro.fr

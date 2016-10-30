@@ -9,11 +9,13 @@ GITHUB = ./tmp/github.txt
 Threshold = 60
 PAC = ./proxy.pac
 
-update: $(PAC) $(DNSMASQ_CONF)
+generate: $(PAC) $(DNSMASQ_CONF)
 
-$(BLOCKED): $(GREATFIRE) $(GITHUB) bricks
-	./bricks adds $(GREATFIRE) $(BLOCKED)
-	./bricks adds $(GITHUB) $(BLOCKED)
+update: import-from-github import-from-greatfire
+	$(MAKE) generate
+
+$(BLOCKED): bricks
+	./bricks adds $(GREATFIRE) $(BLOCKED); fi
 
 $(DNSMASQ_CONF): $(BLOCKED) $(WHITE)
 	sed -i '/^$$/d' $(BLOCKED)
@@ -29,7 +31,7 @@ $(DNSMASQ_CONF): $(BLOCKED) $(WHITE)
 $(PAC): $(BLOCKED) $(WHITE) bricks
 	./bricks makpac $(PROXY) $(BLOCKED) $(WHITE)
 
-$(GREATFIRE): FORCE
+import-from-greatfire: FORCE
 	rm -rf $(GREATFIRE)
 	for i in $$(seq 0 10);\
 	do \
@@ -47,11 +49,13 @@ $(GREATFIRE): FORCE
 		>> $(GREATFIRE);\
 	done
 	sed -i '/^url\b/'d $(GREATFIRE)
+	./bricks adds $(GREATFIRE) $(BLOCKED)
 
-$(GITHUB): FORCE
+import-from-github: FORCE
 	curl -o $(GITHUB) https://raw.githubusercontent.com/Leask/BRICKS/master/gfw.bricks
 	curl https://raw.githubusercontent.com/wongsyrone/domain-block-list/master/domains.txt >> $(GITHUB)
 	sed -i "/v2ex/d" $(GITHUB)
+	./bricks adds $(GITHUB) $(BLOCKED)
 
 clean: FORCE
 	rm -rf tmp/*.txt
