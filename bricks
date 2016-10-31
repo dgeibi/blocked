@@ -45,7 +45,7 @@ makePac() {
             length=$(( length + 1 ))
         fi
     done < $brickFile
-cat <<EOF > $opFile
+    cat <<EOF > $opFile
 '// BRICKS Pac by @leaskh';
 '// https://github.com/leask/bricks';
 '// www.leaskh.com, i@leaskh.com';
@@ -53,14 +53,14 @@ cat <<EOF > $opFile
 function FindProxyForURL(url, host) {
   var bricks = {
 EOF
-sed -e "s/.*/    '\0': 1,/" -e "$ s/,//" $brickFile >> $opFile
-cat <<EOF >> $opFile
+    sed -e "s/.*/    '\0': 1,/" -e "$ s/,//" $brickFile >> $opFile
+    cat <<EOF >> $opFile
   };
 
   var white = {
 EOF
-sed -e "s/.*/    '\0': 1,/" -e "$ s/,//" $whiteFile >> $opFile
-cat <<EOF >> $opFile
+    sed -e "s/.*/    '\0': 1,/" -e "$ s/,//" $whiteFile >> $opFile
+    cat <<EOF >> $opFile
   };
 
   var proxy = '$*';
@@ -114,6 +114,31 @@ pacServer() {
     python -m http.server
 }
 
+showHelp() {
+    echo ' ____________________________________________ '
+    echo '| Twitter|________|________|________|__Vimeo_|'
+    echo '|________|Facebook|________|________|________|'
+    echo '|________|________|________|________|________|'
+    echo '|________|________|________|_Google_|________|'
+    echo '|YouTube_|        |________|________|________|'
+    echo '|                                            |'
+    echo '|              *                             |'
+    echo '|                                            |'
+    echo '|              _______                       |'
+    echo '|             |_______|                      |'
+    echo '|____________________________________________|'
+    echo ''
+    echo 'BRICKS is a list for all the domains blocked by the Chinese GFW (Great-Fire-Wall).'
+    echo ''
+    echo '- add      : Add domain into BRICKS'
+    echo '- adds     : Merge file which contains domains into BRICKS'
+    echo '- remove   : Remove domain from BRICKS'
+    echo '- clean    : Sort & uniq domains in BRICKS'
+    echo '- makpac   : Make PAC file with BRICKS'
+    echo '- pacsrv   : Make PAC file and launch HTTP server'
+    echo '- help     : Show this infos'
+}
+
 unknownCommand() {
     showHelp
     exit 1
@@ -138,6 +163,7 @@ case "$1" in
     'clean'   ) cleanList      ;;
     'makpac'  ) makePac      $2;;
     'pacsrv'  ) pacServer    $2;;
+    'help'    ) showHelp       ;;
     *         ) unknownCommand ;;
 esac
 exit 0

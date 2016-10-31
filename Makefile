@@ -14,9 +14,6 @@ generate: $(PAC) $(DNSMASQ_CONF)
 update: import-from-github import-from-greatfire
 	$(MAKE) generate
 
-$(BLOCKED): bricks
-	./bricks adds $(GREATFIRE) $(BLOCKED); fi
-
 $(DNSMASQ_CONF): $(BLOCKED) $(WHITE)
 	sed -i '/^$$/d' $(BLOCKED)
 	echo "#### BLOCKE IPSET DOMAINS" > $(DNSMASQ_CONF)
