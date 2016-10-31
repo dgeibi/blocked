@@ -282,6 +282,7 @@ archive.is
 archive.org
 archives.gov
 archlinuxarm.org
+archlinux.org
 arctosia.com
 areca-backup.org
 ar.hao123.com
@@ -2511,6 +2512,7 @@ kendincos.net
 kenengba.com
 keontech.net
 kepard.com
+kernel.org
 keurig.com
 khabdha.org
 khatrimaza.org
@@ -4079,6 +4081,7 @@ tcewf.org
 tchrd.org
 tcno.net
 t.co
+tcpdump.org
 tdesktop.com
 td.org
 teamamericany.com
