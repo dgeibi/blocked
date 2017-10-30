@@ -40,67 +40,61 @@ makePac() {
     fi
     length=0
     opFile=proxy.pac
-    while read line; do
+    while read -r line; do
         if [ "$line" != '' ]; then
             length=$(( length + 1 ))
         fi
-    done < $brickFile
-    cat <<EOF > $opFile
-'// BRICKS Pac by @leaskh';
-'// https://github.com/leask/bricks';
-'// www.leaskh.com, i@leaskh.com';
-
-function FindProxyForURL(url, host) {
-  var bricks = {
+    done < "$brickFile"
+{
+cat <<EOF
+// BRICKS Pac by @leaskh
+// https://github.com/leask/bricks
+// www.leaskh.com, i@leaskh.com
 EOF
-    sed -e "s/.*/    '\0': 1,/" -e "$ s/,//" $brickFile >> $opFile
-    cat <<EOF >> $opFile
-  };
 
-  var white = {
-EOF
-    sed -e "s/.*/    '\0': 1,/" -e "$ s/,//" $whiteFile >> $opFile
-    cat <<EOF >> $opFile
-  };
+echo "var proxy = '$*';"
+echo "var bricks = {"
+sed -e "s/.*/'\0': 1,/" -e "$ s/,//" "$brickFile"
+echo "};"
+echo "var white = {"
+sed -e "s/.*/'\0': 1,/" -e "$ s/,//" "$whiteFile"
+echo "};"
 
-  var proxy = '$*';
-
-  function testDomain(target, domains) {
-    var hasOwnProperty = Object.prototype.hasOwnProperty;
-    var suffix;
-    var pos = target.lastIndexOf('.');
-    pos = target.lastIndexOf('.', pos - 1);
-    while (true) {
-      if (pos <= 0) {
-        if (hasOwnProperty.call(domains, target)) {
-          return true;
-        } else {
-          return false;
-        }
-      }
-      suffix = target.substring(pos + 1);
-      if (hasOwnProperty.call(domains, suffix)) {
-        return true;
-      }
-      pos = target.lastIndexOf('.', pos - 1);
+cat <<EOF
+function testDomain(target, domains) {
+  var suffix;
+  var pos = target.lastIndexOf('.');
+  pos = target.lastIndexOf('.', pos - 1);
+  while (true) {
+    if (pos <= 0) return domains.hasOwnProperty(target);
+    suffix = target.substring(pos + 1);
+    if (domains.hasOwnProperty(suffix)) {
+      return true;
     }
+    pos = target.lastIndexOf('.', pos - 1);
   }
-
-  if (isPlainHostName(host) || host === '127.0.0.1' || host === 'localhost') {
+}
+var ipv4Pattern = /^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/;
+function isPrivateIP(host) {
+  if (!ipv4Pattern.test(host)) return false;
+  return (
+    isInNet(host, "172.16.0.0", "255.240.0.0") ||
+    isInNet(host, "192.168.0.0", "255.255.0.0") ||
+    isInNet(host, "127.0.0.0", "255.255.255.0") ||
+    isInNet(host, "10.0.0.0", "255.0.0.0")
+  )
+}
+function FindProxyForURL(url, host) {
+  if (isPlainHostName(host) || isPrivateIP(host) || testDomain(host, white)) {
     return 'DIRECT';
   }
-
-  if (testDomain(host, white)) {
-    return 'DIRECT';
-  }
-
   if (testDomain(host, bricks)) {
     return proxy;
   }
-
   return 'DIRECT';
 }
 EOF
+} > $opFile
     echo 'Done :)'
     echo "Rules: $length items."
     echo "Usage: Use the newly created $opFile as your web browser's automatic"
