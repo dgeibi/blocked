@@ -49,12 +49,14 @@ import-from-greatfire: FORCE
 	./bricks adds $(GREATFIRE) $(BLOCKED)
 
 import-from-github: FORCE
-	curl -o $(GITHUB) https://raw.githubusercontent.com/Leask/BRICKS/master/gfw.bricks
-	curl https://raw.githubusercontent.com/wongsyrone/domain-block-list/master/domains.txt >> $(GITHUB)
-	sed -i "/v2ex/d" $(GITHUB)
+	curl https://raw.githubusercontent.com/wongsyrone/domain-block-list/master/domains.txt > $(GITHUB)
 	./bricks adds $(GITHUB) $(BLOCKED)
 
 clean: FORCE
+	python find_redundant.py | while read SingleDomain;\
+		do if [ -n $${SingleDomain} ];\
+		then ./bricks remove $${SingleDomain};\
+		fi;done
 	rm -rf tmp/*.txt
 
 FORCE:
